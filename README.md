@@ -20,7 +20,6 @@ Repository contains tasks to the implementation of stacks and queues in C
 ### More information
 The following data structures are used and included in the header file
 
-/**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
@@ -28,7 +27,7 @@ The following data structures are used and included in the header file
  *
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO
- */
+
 ```
 typedef struct stack_s
 {
@@ -38,13 +37,13 @@ typedef struct stack_s
 } stack_t;
 ```
 
-/**
+
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
  * @f: function to handle the opcode
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO
- */
+
 ```
 typedef struct instruction_s
 {
