@@ -1,11 +1,11 @@
-#Algorithms & Data Structures - Stack(s) and Queue(s)
+# Algorithms & Data Structures - Stack(s) and Queue(s)
 
-##Table of Contents
+## Table of Contents
 * [General information](#general-info)
 * [Documentation Styles](#documentation)
 * [More information](#moreinfo)
 
-###General information
+### General information
 Repository contains tasks to the implementation of stacks and queues in C
 
 ###Documentation styles
@@ -17,7 +17,7 @@ Repository contains tasks to the implementation of stacks and queues in C
 * No more than 5 functions per file
 * The prototypes of all functions are included in the header file called monty.h
 
-###More information
+### More information
 The following data structures are used and included in the header file
 
 /**
