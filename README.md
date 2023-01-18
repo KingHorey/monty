@@ -8,7 +8,7 @@
 ### General information
 Repository contains tasks to the implementation of stacks and queues in C
 
-###Documentation styles
+### Documentation styles
 * Allowed editors: vi, vim, emacs
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
 * All your files end with a new line
@@ -29,14 +29,14 @@ The following data structures are used and included in the header file
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO
  */
-'''
+```
 typedef struct stack_s
 {
         int n;
         struct stack_s *prev;
         struct stack_s *next;
 } stack_t;
-'''
+```
 
 /**
  * struct instruction_s - opcode and its function
@@ -45,13 +45,13 @@ typedef struct stack_s
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO
  */
-'''
+```
 typedef struct instruction_s
 {
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
-'''
+```
 
 
 * All errors are printed on stderr
